@@ -14,19 +14,16 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 if (a>b & a>c)
 {
-    Console.WriteLine("Максимальное значение из предложенных вариатов ");
-    Console.Write(a);
+    Console.WriteLine("Максимальное значение из предложенных вариатов " + a);
 }
 else
 {
     if (b>a & b>c)
     {
-       Console.WriteLine("Максимальное значение из предложенных вариатов ");
-       Console.Write(b); 
+       Console.WriteLine("Максимальное значение из предложенных вариатов " + b); 
     }
     else
     {
-    Console.WriteLine("Максимальное значение из предложенных вариатов ");
-    Console.Write(c);   
+    Console.WriteLine("Максимальное значение из предложенных вариатов " + c);   
     }
 }
